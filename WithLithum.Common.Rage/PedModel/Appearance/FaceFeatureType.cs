@@ -1,4 +1,4 @@
-﻿namespace WithLithum.Core.PedModel.Apperance
+﻿namespace WithLithum.Core.PedModel.Appearance
 {
     /// <summary>
     /// An enumeration of all possible face feature types.

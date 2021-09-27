@@ -1,7 +1,7 @@
 ﻿using Rage;
 using Rage.Native;
 
-namespace WithLithum.Core.PedModel.Apperance
+namespace WithLithum.Core.PedModel.Appearance
 {
     /// <summary>
     /// Provides utilties to manipulate a specific face feature of freemode model head blends.
