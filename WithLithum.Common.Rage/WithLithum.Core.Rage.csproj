@@ -5,6 +5,7 @@
     <Nullable>disable</Nullable>
     <AssemblyName>WithLithum.Core.Rage</AssemblyName>
     <RootNamespace>WithLithum.Core</RootNamespace>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
