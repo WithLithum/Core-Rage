@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WithLithum.Common
+namespace WithLithum.Core
 {
     public class Class1
     {
