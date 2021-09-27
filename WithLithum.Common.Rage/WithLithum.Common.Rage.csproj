@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Nullable>disable</Nullable>
+    <AssemblyName>WithLithum.Common.Rage</AssemblyName>
+    <RootNamespace>WithLithum.Common</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RagePluginHook" Version="1.86.1" />
+  </ItemGroup>
+
+</Project>
