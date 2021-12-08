@@ -6,7 +6,28 @@
     <AssemblyName>WithLithum.Core.Rage</AssemblyName>
     <RootNamespace>WithLithum.Core</RootNamespace>
     <Platforms>AnyCPU;x64</Platforms>
+    <Authors>WithLithum</Authors>
+    <Product>WithLithum's Core</Product>
+    <Description>Common code by WithLithum, for RAGE Plugin Hook</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIcon>CommonRph.png</PackageIcon>
+    <Copyright>Copyright (C) WithLithum &amp; contributors 2021.</Copyright>
+    <RepositoryType></RepositoryType>
+    <RepositoryUrl>https://gitlab.com/WithLithum/core-rage</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\CommonRph.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="RagePluginHook" Version="1.86.1" />
