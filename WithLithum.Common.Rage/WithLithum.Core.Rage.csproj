@@ -16,6 +16,8 @@
     <Copyright>Copyright (C) WithLithum &amp; contributors 2021.</Copyright>
     <RepositoryType></RepositoryType>
     <RepositoryUrl>https://gitlab.com/WithLithum/core-rage</RepositoryUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
