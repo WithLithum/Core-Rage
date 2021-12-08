@@ -6,8 +6,29 @@ using Rage.Exceptions;
 namespace WithLithum.Core.PedModel.Appearance
 {
     /// <summary>
-    /// Provides head blend customization to model <see cref="PedHash.FreemodeMale01"/> and <see cref="PedHash.FreemodeFemale01"/>.
+    /// Provides head blend customization to model the freemode models.
     /// </summary>
+    /// <remarks>
+    /// <para>
+    /// Freemode models have their custom appearance system based on three different main factors:
+    /// <list type="bullet">
+    ///     <item><see cref="HeadBlend"/> which determines the base shape of the head and face, as well as their race (skin color).</item>
+    ///     <item><see cref="FaceFeature"/> which determines extra modifiers of the head and face.</item>
+    ///     <item><see cref="HeadOverlay"/> which determines textures and extra addon models added to the face.</item>
+    /// </list>
+    /// </para>
+    /// <para>
+    /// This class manages instances of <see cref="FaceFeature"/> and <see cref="HeadOverlay"/> as well as <see cref="HeadBlend"/> in order
+    /// to assist the programmer to customize head blend.
+    /// </para>
+    /// <para>
+    /// <note type="note">
+    /// GTA Online's system, although is based on this system, is somewhat limited and direct usage of this system may result in
+    /// combinations that is impossible in GTA Online.<br />
+    /// LSPD First Response, on other hand, uses the mostly same system and same goes to that.
+    /// </note>
+    /// </para>
+    /// </remarks>
     public class HeadBlendCustomizer
     {
         private readonly Dictionary<FaceFeatureType, FaceFeature> _features = new Dictionary<FaceFeatureType, FaceFeature>();

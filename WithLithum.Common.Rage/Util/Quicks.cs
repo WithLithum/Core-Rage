@@ -21,12 +21,12 @@ namespace WithLithum.Core.Util
     public static class Quicks
     {
         /// <summary>
-        /// Gets the <see cref="Ped"/> controlled by the player.
+        /// Gets the <see cref="Rage.Ped"/> controlled by the player.
         /// </summary>
         public static Ped MainChara => Game.LocalPlayer.Character;
 
         /// <summary>
-        /// Gets an instance of <see cref="Player"/> representing the local player.
+        /// Gets an instance of <see cref="Rage.Player"/> representing the local player.
         /// </summary>
         public static Player PInstance => Game.LocalPlayer;
     }

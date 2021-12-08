@@ -9,7 +9,7 @@ using Rage.Native;
 namespace WithLithum.Core.Entities
 {
     /// <summary>
-    /// Provides extensions to <see cref="Vehicle"/>.
+    /// Provides extensions to <see cref="Rage.Vehicle"/>.
     /// </summary>
     public static class VehicleExtensions
     {

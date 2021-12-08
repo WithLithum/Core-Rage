@@ -4,8 +4,20 @@
     /// An enumeration of all possible parents in head blend configuration.
     /// </summary>
     /// <remarks>
-    /// <note type="important">This list may not be accurate, because this list is simply chronologically ordered instead of tested actually.<br />
+    /// <para>
+    /// Freemode peds' head blend is constructed of a basic blend of two parents, and <see cref="FaceFeature"/>s.
+    /// </para>
+    /// <note type="important">This list may not be accurate, or even totally incorrect, because this list is simply chronologically ordered instead of tested actually.<br />
     /// For more information, see <see href="https://gtaforums.com/topic/858970-all-gtao-face-ids-pedset_ped_head_blend_data-explained">this topic</see> on GTAForums.</note>
+    /// <para>
+    /// GTA Online restricts parents to be one male and one female, much like in the real life. However, the game engine does not enforce
+    /// that restriction on natives which the library based on. As result, combinations that are impossible in GTA Online such as two mothers are
+    /// possible.
+    /// </para>
+    /// <note type="warning">
+    /// The original author of this order made the list against <b>Simple Trainer V</b> which begins all indexs by <b>1</b>. The list may needs to be validated
+    /// and sees if the list is <b>actually begins from 1 at all</b>.
+    /// </note>
     /// </remarks>
     /// <seealso cref="HeadBlend"/>
     /// <seealso cref="HeadBlendCustomizer"/>
@@ -13,6 +25,7 @@
     {
         /// <summary>
         /// One of the parents.
+        /// He has the ID of 1.
         /// </summary>
         Benjamin = 1,
         /// <summary>

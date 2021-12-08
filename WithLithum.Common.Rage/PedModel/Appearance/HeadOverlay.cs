@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Rage;
 using Rage.Exceptions;
 using Rage.Native;
 
@@ -30,7 +31,7 @@ namespace WithLithum.Core.PedModel.Appearance
         /// <summary>
         /// Gets the index of this instance.
         /// </summary>
-        /// <exception cref="InvalidOperationException">Thrown when the <see cref="HeadBlendCustomizer"/> or it's <see cref="GTA.Ped"/> was null, or when <see cref="HeadBlendCustomizer.BasePed"/> was invalid.</exception>
+        /// <exception cref="InvalidOperationException">Thrown when the <see cref="HeadBlendCustomizer"/> or it's <see cref="Ped"/> was null, or when <see cref="HeadBlendCustomizer.BasePed"/> was invalid.</exception>
         public int Index
         {
             get

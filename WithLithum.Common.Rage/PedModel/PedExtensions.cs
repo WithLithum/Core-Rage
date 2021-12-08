@@ -10,7 +10,7 @@ using WithLithum.Core.PedModel.Appearance;
 namespace WithLithum.Core.PedModel
 {
     /// <summary>
-    /// Provide extension methods to <see cref="Ped"/> class.
+    /// Provide extension methods to <see cref="Rage.Ped"/> class.
     /// </summary>
     public static class PedExtensions
     {
