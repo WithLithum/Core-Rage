@@ -17,8 +17,9 @@
     <RepositoryType></RepositoryType>
     <RepositoryUrl>https://gitlab.com/WithLithum/core-rage</RepositoryUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.1.1</Version>
+    <Version>0.2.0</Version>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageReleaseNotes>Add HUD related stuff, including Loading Spinner, Text.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
