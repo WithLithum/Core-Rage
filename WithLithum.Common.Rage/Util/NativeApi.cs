@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WithLithum.Core.Util
 {
-    internal class NativeApi
+    internal static partial class NativeApi
     {
     }
 }
